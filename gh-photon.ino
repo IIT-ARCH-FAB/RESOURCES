@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  analogVal = analogRead(0);
+  analogIn = analogRead(0);
 }
 
 void publish(){
