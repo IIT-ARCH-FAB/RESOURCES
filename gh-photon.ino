@@ -5,6 +5,7 @@ Timer myTimer(1500, publish);
 
 void setup() {
     myTimer.start();
+    Particle.variable("analogIn", analogIn);
 }
 
 void loop() {
